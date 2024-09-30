@@ -35,7 +35,7 @@ sap.ui.define([
 		getHelper: function () {
 			return this._getFcl().then(function(oFCL) {
 				var oSettings = {
-					defaultTwoColumnLayoutType: fioriLibrary.LayoutType.TwoColumnsBeginExpanded,
+					defaultTwoColumnLayoutType: fioriLibrary.LayoutType.TwoColumnsMidExpanded,
 					defaultThreeColumnLayoutType: fioriLibrary.LayoutType.ThreeColumnsMidExpanded
 				};
 				return (FlexibleColumnLayoutSemanticHelper.getInstanceFor(oFCL, oSettings));
