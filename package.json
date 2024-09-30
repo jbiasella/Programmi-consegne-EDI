@@ -5,7 +5,7 @@
   "author": "SAP SE",
   "scripts": {
     "start": "ui5 serve",
-    "build": "ui5 build"
+    "build": "ui5 build --config=ui5.yaml --clean-dest --dest dist",
   },
   "devDependencies": {
     "@ui5/cli": "^4"
